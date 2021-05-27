@@ -1,3 +1,3 @@
 # XS2AiOSNetService
 
-A description of this package.
+This is the networking service for the XS2A iOS SDK.

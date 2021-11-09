@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XS2AiOSNetService'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'Netservice for XS2AiOS.'
 
   s.homepage         = 'https://github.com/FinTecSystems/xs2a-ios-netservice'

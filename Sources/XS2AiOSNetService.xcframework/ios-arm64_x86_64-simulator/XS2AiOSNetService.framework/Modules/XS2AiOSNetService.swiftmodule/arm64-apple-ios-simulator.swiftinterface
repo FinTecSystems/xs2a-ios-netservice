@@ -1,13 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name XS2AiOSNetService
 import CommonCrypto
 import Foundation
 import Swift
+import _Concurrency
 public protocol CryptoDigest {
   func digest(using algorithm: XS2AiOSNetService.Digest.Algorithm) -> Self
 }
-extension CryptoDigest {
+extension XS2AiOSNetService.CryptoDigest {
   public var md2: Self {
     get
   }
@@ -33,10 +34,10 @@ extension CryptoDigest {
     get
   }
 }
-extension Data : XS2AiOSNetService.CryptoDigest {
+extension Foundation.Data : XS2AiOSNetService.CryptoDigest {
   public func digest(using algorithm: XS2AiOSNetService.Digest.Algorithm) -> Foundation.Data
 }
-extension String : XS2AiOSNetService.CryptoDigest {
+extension Swift.String : XS2AiOSNetService.CryptoDigest {
   public func digest(using algorithm: XS2AiOSNetService.Digest.Algorithm) -> Swift.String
 }
 @_inheritsConvenienceInitializers public class Cryptor : XS2AiOSNetService.StreamCryptor, XS2AiOSNetService.Updatable {
@@ -217,7 +218,7 @@ public protocol Updatable {
   var status: XS2AiOSNetService.Status { get }
   func update(from buffer: Swift.UnsafeRawPointer, byteCount: Darwin.size_t) -> Self?
 }
-extension Updatable {
+extension XS2AiOSNetService.Updatable {
   public func update(data: Foundation.NSData) -> Self?
   public func update(data: Foundation.Data) -> Self?
   public func update(byteArray: [Swift.UInt8]) -> Self?
@@ -554,11 +555,11 @@ public struct CryptoUtils {
   }
   @objc deinit
 }
-extension Data {
+extension Foundation.Data {
   public func hexadecimalString() -> Swift.String
   public func arrayOfBytes() -> [Swift.UInt8]
 }
-extension String {
+extension Swift.String {
   public func dataFromHexadecimalString() -> Foundation.Data?
 }
 public enum XS2ANetError : Swift.Error {
@@ -569,9 +570,12 @@ public enum XS2ANetError : Swift.Error {
     get
   }
 }
-public struct NetService {
-  public static func post(body: Swift.Dictionary<Swift.String, Any>, sessionKey: Swift.String, completion: @escaping ((Swift.Result<Foundation.Data, Swift.Error>) -> Swift.Void))
-  public static func postCustom(body: Swift.Dictionary<Swift.String, Any>, endpoint: Swift.String = "http://192.168.178.44:8080/jsonp", sessionKey: Swift.String, completion: @escaping ((Swift.Result<Foundation.Data, Swift.Error>) -> Swift.Void))
+public class XS2ANetService {
+  public init()
+  public func cancelTask()
+  public func post(body: Swift.Dictionary<Swift.String, Any>, sessionKey: Swift.String, completion: @escaping ((Swift.Result<Foundation.Data, Swift.Error>) -> Swift.Void))
+  public func postCustom(body: Swift.Dictionary<Swift.String, Any>, endpoint: Swift.String = "http://192.168.178.44:8080/jsonp", sessionKey: Swift.String, completion: @escaping ((Swift.Result<Foundation.Data, Swift.Error>) -> Swift.Void))
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class AES256 {
   public static let SALTLEN: Swift.Int

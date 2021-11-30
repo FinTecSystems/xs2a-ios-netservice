@@ -6,59 +6,59 @@
 	<dict>
 		<key>Headers/XS2AiOSNetService-Swift.h</key>
 		<data>
-		bbw9oZXXwXdEcc/Aw6Wo4LSp3lg=
+		+5z6s7vokFEzrJGRqoUQrty2pcU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		frQSWjxuAkrImzlDXcVGb9Q77DQ=
+		lmsaf+EQKMbdaIqRL8ES4ISMXRI=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		o65dJWWcR0puvwMu2+XEbX0O5T4=
+		iuS+VltX595x6Gbo1vwRkZJG74I=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tZRWivzRz6v1+hvPghNn6yMf7Ws=
+		RGgB/p9ef7nQwiaId1FAmrKUyr0=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lClUXJMELzfvuyEJlAieOhlVmoA=
+		v+PJHqNmnLYxGlfmfdCQ/rXi7ds=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		o65dJWWcR0puvwMu2+XEbX0O5T4=
+		iuS+VltX595x6Gbo1vwRkZJG74I=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		tZRWivzRz6v1+hvPghNn6yMf7Ws=
+		RGgB/p9ef7nQwiaId1FAmrKUyr0=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		lClUXJMELzfvuyEJlAieOhlVmoA=
+		v+PJHqNmnLYxGlfmfdCQ/rXi7ds=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vV7siL2lywwhRFC++G8KjaExuY0=
+		b0arWi1CTvTJH0EffhFTgj8focs=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kZ0wlKIXtjk7Ev8PK4dKsCWR/+g=
+		wCZclp6eX06hKeNCpRXmgnahrF0=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t4rmHyEjWsR5XMw3hulcGTyn01w=
+		+XKgOFMJ9tiwFsdeZ9RDi+brHx4=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vV7siL2lywwhRFC++G8KjaExuY0=
+		b0arWi1CTvTJH0EffhFTgj8focs=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		kZ0wlKIXtjk7Ev8PK4dKsCWR/+g=
+		wCZclp6eX06hKeNCpRXmgnahrF0=
 		</data>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		t4rmHyEjWsR5XMw3hulcGTyn01w=
+		+XKgOFMJ9tiwFsdeZ9RDi+brHx4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,91 +67,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYdyyW10oq2fRcZC5Bz1r2D8Y4Bby5RaZ8I7TznOet8=
+			vUTryPW8iSHzZa4bzrXWwzWAl75ldu6bGLY6O1VFxFI=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3ytariQ8z/MfJLNaSCMIPit9xZRIGEyxT4DOp0TmY0=
+			fCmVsMCBPf2hCVn5Zd7mDssScV3NZXos64tFBgPe0/c=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mwin6+PXGw9AE7FTo3LxFeIFI8mLm+OJkLHuukbw7Ck=
+			DkNbhheJdEIJWhZhUKEQn+sHipIvRyHtUD0mGQUnppA=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IENR9qW0A/t/jW+pgD7eJiDWQtCHSfitpiG5NoUJK/I=
+			JHN5P2WKARG+xnTrz15UCD7/RqvwX4JQjBBON9SbQNo=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3ytariQ8z/MfJLNaSCMIPit9xZRIGEyxT4DOp0TmY0=
+			fCmVsMCBPf2hCVn5Zd7mDssScV3NZXos64tFBgPe0/c=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mwin6+PXGw9AE7FTo3LxFeIFI8mLm+OJkLHuukbw7Ck=
+			DkNbhheJdEIJWhZhUKEQn+sHipIvRyHtUD0mGQUnppA=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IENR9qW0A/t/jW+pgD7eJiDWQtCHSfitpiG5NoUJK/I=
+			JHN5P2WKARG+xnTrz15UCD7/RqvwX4JQjBBON9SbQNo=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoN6DuqmiEA+MbGkI5XHAwTmZiOhW4UX+UQcuklRfzc=
+			C6Rhg6G/zeQ0FTmF2DzXNi+I4fqsHCx6T9dtmlAge8A=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxMXQ3t85eP9YAzeQNt4yI6CDTcOevREeAghp7GSups=
+			hzhg5bra/iN0YNCXo8KoVWSbtwwzzHYMOyWjUDHzoTM=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+XVW2C4K4FuRvl5CrpqwvrYYKNV37cbubaEgc9Ipkc=
+			cHj8VMs50NJYycHhR+kaI84XyLqQDhkYp9JeqblcoSE=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoN6DuqmiEA+MbGkI5XHAwTmZiOhW4UX+UQcuklRfzc=
+			C6Rhg6G/zeQ0FTmF2DzXNi+I4fqsHCx6T9dtmlAge8A=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxMXQ3t85eP9YAzeQNt4yI6CDTcOevREeAghp7GSups=
+			hzhg5bra/iN0YNCXo8KoVWSbtwwzzHYMOyWjUDHzoTM=
 			</data>
 		</dict>
 		<key>Modules/XS2AiOSNetService.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+XVW2C4K4FuRvl5CrpqwvrYYKNV37cbubaEgc9Ipkc=
+			cHj8VMs50NJYycHhR+kaI84XyLqQDhkYp9JeqblcoSE=
 			</data>
 		</dict>
 	</dict>

@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "XS2AiOSNetService",
 	platforms: [
-	  .iOS(.v11)
+	  .iOS(.v10)
 	],
     products: [
         .library(
